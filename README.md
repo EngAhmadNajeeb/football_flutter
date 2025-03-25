@@ -1,45 +1,50 @@
 # Football App
 
-![Football App](./Football.png)
+## Overview
+Football is a dynamic mobile application designed for football enthusiasts who want real-time updates on matches, team lineups, and scores. The app fetches data seamlessly from [Football API (v3)](https://v3.football.api-sports.io), ensuring users get accurate and up-to-date information.
 
-## ⚽ Overview
-Football App provides live match updates, team lineups, and detailed match information — all powered by the [API-SPORTS Football API](https://v3.football.api-sports.io).
+## Features
+- 🏅 **Live Match Scores** — Get instant updates on ongoing matches.
+- 📅 **Match Schedules** — Stay ahead with upcoming game dates.
+- ⚽ **Team Lineups** — View detailed formations and player positions for each match.
+- 🔥 **Fast & Lightweight** — Optimized for performance to deliver data quickly.
 
-## 📲 Features
-- Live match scores and results.
-- Team formations displayed on a visual football field.
-- Match details, including team logos, goals, and event timing.
-- Smooth and responsive UI.
+## Tech Stack
+- **Flutter** — For cross-platform mobile development.
+- **RESTful API** — Integrated Football API v3 for live data.
+- **State Management** — Managed efficiently for smooth UI updates.
 
-## 🛠️ Tech Stack
-- **Frontend:** Flutter
-- **Backend Data:** API-SPORTS Football API
-
-## 🚀 Getting Started
-
+## How to Run
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/football-app.git
-   ```
+    ```bash
+    git clone https://github.com/YourUsername/football-app.git
+    ```
 
 2. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
+    ```bash
+    flutter pub get
+    ```
 
-3. Add your API key from [API-SPORTS](https://dashboard.api-football.com/).
+3. Run the app:
+    ```bash
+    flutter run
+    ```
 
-4. Run the app:
-   ```bash
-   flutter run
-   ```
+4. Set up API key:
+    - Get an API key from [API Sports](https://www.api-football.com/).
+    - Add it to `lib/api/api_service.dart`:
+      ```dart
+      dio.options.headers['x-rapidapi-key'] =  "YOUR_API_KEY";
+      ```
 
-## 💡 Future Improvements
-- Push notifications for live scores.
-- Favorite team tracking.
-- Detailed player stats.
+## Screenshots
+| Match Details | Team Lineup |
+| ------------- | ----------- |
+| ![Match Details](https://github.com/EngAhmadNajeeb/football_flutter/blob/main/assets/images/screenshot1.jpg?raw=true) | ![Team Lineup](https://github.com/EngAhmadNajeeb/football_flutter/blob/main/assets/images/screenshot2.jpg?raw=true) 
 
----
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Eng Ahmad Najeeb](https://github.com/EngAhmadNajeeb)
+
+
+⭐ **Feel free to fork this repo and improve it — contributions are welcome!**
 
