@@ -1,67 +1,45 @@
-Football App
+# Football App
 
-Overview
+![Football App](./Football.png)
 
-Football is a dynamic mobile application designed for football enthusiasts who want real-time updates on matches, team lineups, and scores. The app fetches data seamlessly from Football API (v3), ensuring users get accurate and up-to-date information.
+## ⚽ Overview
+Football App provides live match updates, team lineups, and detailed match information — all powered by the [API-SPORTS Football API](https://v3.football.api-sports.io).
 
-Features
+## 📲 Features
+- Live match scores and results.
+- Team formations displayed on a visual football field.
+- Match details, including team logos, goals, and event timing.
+- Smooth and responsive UI.
 
-🏅 Live Match Scores — Get instant updates on ongoing matches.
+## 🛠️ Tech Stack
+- **Frontend:** Flutter
+- **Backend Data:** API-SPORTS Football API
 
-📅 Match Schedules — Stay ahead with upcoming game dates.
+## 🚀 Getting Started
 
-⚽ Team Lineups — View detailed formations and player positions for each match.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/football-app.git
+   ```
 
-🔥 Fast & Lightweight — Optimized for performance to deliver data quickly.
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
 
-Tech Stack
+3. Add your API key from [API-SPORTS](https://dashboard.api-football.com/).
 
-Flutter — For cross-platform mobile development.
+4. Run the app:
+   ```bash
+   flutter run
+   ```
 
-RESTful API — Integrated Football API v3 for live data.
+## 💡 Future Improvements
+- Push notifications for live scores.
+- Favorite team tracking.
+- Detailed player stats.
 
-Local Storage — Caches data for offline access.
+---
 
-State Management — Managed efficiently for smooth UI updates.
+Made with ❤️ by [Your Name](https://github.com/yourusername)
 
-How to Run
-
-Clone the repository:
-
-git clone https://github.com/YourUsername/football-app.git
-
-Install dependencies:
-
-flutter pub get
-
-Run the app:
-
-flutter run
-
-(Optional) Set up API key:
-
-Get an API key from API Sports.
-
-Add it to lib/config.dart:
-
-const String apiKey = "YOUR_API_KEY";
-
-Screenshots
-
-Match Details
-
-Live Score
-
-Team Lineup
-
-
-
-
-
-
-
-License
-
-This project is licensed under the MIT License.
-
-⭐ Feel free to fork this repo and improve it — contributions are welcome!
