@@ -43,8 +43,13 @@ Football is a dynamic mobile application designed for football enthusiasts who w
 | ![Match Details](https://github.com/EngAhmadNajeeb/football_flutter/blob/main/assets/images/screenshot1.jpg?raw=true) | ![Team Lineup](https://github.com/EngAhmadNajeeb/football_flutter/blob/main/assets/images/screenshot2.jpg?raw=true) 
 
 
-Made with ❤️ by [Eng Ahmad Najeeb](https://github.com/EngAhmadNajeeb)
+## License
 
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+Made with ❤️ by [Eng Ahmad Najeeb](https://github.com/EngAhmadNajeeb)
 
 ⭐ **Feel free to fork this repo and improve it — contributions are welcome!**
 
